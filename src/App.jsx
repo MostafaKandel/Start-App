@@ -1,11 +1,7 @@
- 
-import './App.css'
-import Navbar from './Components/Navbar'
 import Header from './Components/Header'
 import Portfolio  from './Components/Portfolio'
 import { About } from './Components/About'
 import { Contact } from './Components/Contact'
-import Footer from './Components/Footer'
 import Layout from './Components/Layout'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -19,8 +15,6 @@ let router = createBrowserRouter([
 ])
 
 function App() {
-   
-
   return <RouterProvider router={router} />
 }
 

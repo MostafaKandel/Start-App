@@ -6,7 +6,7 @@ export default function Footer() {
   <div className="container mx-auto px-4 mb-20">
     <div className="flex flex-wrap">
       
-      <div className="w-full lg:w-1/3 mt-5">
+      <div className="w-full lg:w-1/3 my-6 ">
         <div>
           <h4 className="text-3xl font-bold uppercase mb-4">Location</h4>
           <p>
@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
       </div>
       
-      <div className="w-full lg:w-1/3 mt-5">
+      <div className="w-full lg:w-1/3 my-6">
         <div >
           <h4 className="text-3xl font-bold uppercase mb-8">Around the web</h4>
           <ul className="flex justify-center space-x-4">
@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
       </div>
      
-      <div className="w-full lg:w-1/3 mt-5">
+      <div className="w-full lg:w-1/3 my-6">
         <h4 className="text-3xl font-bold uppercase mb-4">About freelancer</h4>
         <p className="font-bold">
           Freelance is a free to use, MIT licensed Bootstrap theme created by Hamza Nouh
@@ -57,6 +57,5 @@ export default function Footer() {
     <p className="p-6 text-base">Copyright © Hamza Nouh 2022</p>
   </div>
 </footer>
-
   </>;
 }

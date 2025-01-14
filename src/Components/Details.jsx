@@ -2,9 +2,7 @@
 
 export default function Details( {name,src,description,onClose} ) {
    
-
     return <>
-    
     <div  className="fixed bg-black bg-opacity-50 inset-0 items-center z-50">
     <div class="relative opacity-100 bg-white rounded-lg shadow p-10  w-[60%] mx-auto ">
     <button
@@ -34,9 +32,6 @@ export default function Details( {name,src,description,onClose} ) {
                 <p>{description}</p>
             </div>
     </div>
-    </div>
-
- 
-     
+    </div>   
     </>
 }

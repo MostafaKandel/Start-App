@@ -49,7 +49,6 @@ export default function Portfolio() {
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.",
     },
   ];
-  console.log(nameSelectedItem);
   return <>
    <div className="container mx-auto py-24">
   <h2 className="font-bold text-secondary text-6xl mt-7 mb-2 tracking-widest uppercase text-center">
@@ -59,7 +58,6 @@ export default function Portfolio() {
     <div className="w-32 h-1 rounded-md bg-secondary me-3"></div>
     <i className="fa-solid fa-star text-secondary text-3xl"></i>
     <div className="w-32 h-1 rounded-md bg-secondary ms-3"></div>
-     
   </div>
 
   <div className="flex flex-wrap -mx-5">
@@ -69,7 +67,6 @@ export default function Portfolio() {
         className="relative w-full md:w-1/2 lg:w-1/3 mb-12 px-5"
         onClick={() => setNameSelectedItem(item.name)}
       >
-      
         <div className="relative">
         
           <img
@@ -99,6 +96,5 @@ export default function Portfolio() {
         />
       )}
 </div>
-
   </>;
 }
