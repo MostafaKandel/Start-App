@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title-underline {
+    @apply before:content-[''] before:absolute before:w-28 before:h-1 before:rounded-md before:-left-32 after:content-[''] after:absolute after:w-28 after:h-1 after:rounded-md after:-right-32
+}
+.row{
+    @apply flex flex-wrap py-8 items-center px-4
+  }
+
+.container{
+    @apply mx-auto px-9
+}
